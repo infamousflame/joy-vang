@@ -4,6 +4,7 @@
 }
 html{
     background-color:#FFFEF3;
+
     background-color: hsla(350, 1%, 90%, 0.64) !important;
 }
 body{
@@ -25,8 +26,7 @@ section img{
     width: 100%;
 }
 section{
-    margin-top: 50px;
-    height: 400px;
+    margin: 50px 0;
 }
 
 /*Header*/
@@ -40,7 +40,7 @@ nav h1{
 }
 nav a{
     text-decoration:none;
-    color:inherit;    
+    color:inherit;
 }
 nav a:hover{
     color:grey;
@@ -57,7 +57,7 @@ nav ul{
 }
 nav li {
     padding:15px;
-    display: block;  
+    display: block;
     list-style: none;
     text-decoration: none;
 }
@@ -88,11 +88,9 @@ footer{
     padding-top: 20px;
     background-color: grey;
     color: lightgrey;
-    
+
 }
-footer p{
-    margin-top: 20px;
-}
+
 footer a{
     text-decoration: none;
     color: lightgrey;
@@ -103,7 +101,7 @@ footer a:hover{
     cursor: pointer;
 }
 .active a{
-    border: 1.5px solid grey; 
+    border: 1.5px solid grey;
     background-color: #F8F8F8 !important;
 }
 .active a:hover{
@@ -127,15 +125,12 @@ footer a:hover{
 home p{
     padding-top: 12%
 }
-section .col-sm-8{
-    height: 350vh;
-}
 .centered{
     display: inline-block;
 }
 .navbar{
     margin-bottom: 0;
-} 
+}
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
     top: 55%;
 }
@@ -147,7 +142,7 @@ section .col-sm-8{
 }
 .active a{
     border-radius: 5px;
-    
+
 }
 .navbar-nav>li>.dropdown-menu{
     left:-5px;
@@ -175,6 +170,9 @@ section .col-sm-8{
 p{
     padding-top: 6%;
 }
+footer p{
+    padding-top:2%;
+}
 .navbar{
     border-radius: 0 !important;
 }
@@ -192,11 +190,40 @@ p{
     border:none;
     background-color:transparent!important;
     box-shadow:none;
-}
+}/*
 .collage div{
     padding:8px;
     border-box: border-box;
 }
 .collage{
     padding-top: 32px;
+}
+*/
+section p{
+    padding-top: 12%
+}
+.row{
+  margin:0;
+}
+
+@media (max-width: 768px){
+  .img-circle{
+    padding: 0 200px;
+  }
+}
+
+@media (max-width: 968px){
+  .container{
+      padding-right: 0;
+      padding-left: 0;
+      margin-right: 0;
+      margin-left: 0;
+      width: 100%;
+  }
+  }
+}
+
+.carousel-inner>.item{
+  /*height:100vh;*/
+  height:
 }

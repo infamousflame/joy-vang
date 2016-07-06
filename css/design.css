@@ -32,7 +32,7 @@ nav h1{
 }
 nav a{
     text-decoration:none;
-    color:inherit;    
+    color:inherit;
 }
 nav a:hover{
     color:grey;
@@ -49,26 +49,26 @@ nav ul{
 }
 nav li {
     padding:15px;
-    display: inline;  
+    display: inline;
     list-style: none;
     text-decoration: none;
 }
 nav li .drop{
     position:relative;
-    
+
 }
 .drop:hover ul{
     display:block;
 }
 .drop ul {
-    padding-left:10px; 
+    padding-left:10px;
     position:absolute;
     top: 100%;
     right: 185px;
     width: 125px;
     background-color: rgba(255, 255, 255, 0.9);
     display:none;
-}    
+}
 .drop li{
     display:block;
 }
@@ -85,7 +85,7 @@ footer{
 }
 footer li{
     display: inline-table;
-    margin: 0 auto; 
+    margin: 0 auto;
     text-align:center;
     padding-top: 0;
 }
@@ -115,7 +115,7 @@ footer ul a{
     color: black;
     padding: 10px;
     margin: 0;
-    
+
 }
 footer p{
     text-align:center;
@@ -136,14 +136,14 @@ footer p{
 
 
 /*Info*/
-    
+
 
 
 
 #info div {
     padding: 50px 10px;
-    
-}   
+
+}
 #info p{
 margin:0;
 }
@@ -151,7 +151,7 @@ margin:0;
 #showcase img{
     width:calc(100% / 3);
     float:left;
-    
+
 }
 
 /* Slideshow */
@@ -170,7 +170,7 @@ margin:0;
     transition: opacity 2s;
     opacity:1;
     position: relative;
-    
+
 }
 
 figure {
@@ -215,7 +215,7 @@ h1{
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
-    
+
 .active a{
    background-color: hsla(350, 1%, 50%, 0.64) !important;
 }
